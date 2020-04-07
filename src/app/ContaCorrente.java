@@ -3,6 +3,10 @@ package app;
 public class ContaCorrente {
     private double saldo;
 
+    public ContaCorrente() {
+        this.saldo = 0;
+    }
+
     public ContaCorrente(double valor) {
         this.saldo = valor;
     }
